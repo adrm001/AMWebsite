@@ -4,10 +4,10 @@ module.exports = function(grunt) {
     grunt.initConfig({
 
         copy: {
-            svgjs: {
-                cwd:'svgjs/',
-                src: '*.min.js',
-                dest: 'publish/js/',
+            paperletters: {
+                cwd:'subs/PaperLetters/dist',
+                src: '**',
+                dest: 'publish/PaperLetters/',
                 expand: true
             },
             js: {
@@ -21,13 +21,13 @@ module.exports = function(grunt) {
                 expand: true
             },
             bootstrap:{
-                cwd:'bootstrap-scr/dist',
+                cwd:'subs/AMBootstrap/dist',
                 src: ['js/bootstrap.min.js','css/bootstrap.min.css','fonts/*'],
                 dest:'publish',
                 expand:true
             },
             html:{
-                src: ['index.html','test.html','partials/**'],
+                src: ['index.html','partials/**'],
                 dest: 'publish/',
                 expand: true
             }
@@ -57,41 +57,6 @@ module.exports = function(grunt) {
                 }
             }
         },
-        //
-        //jade: {
-        //    compile: {
-        //        options: {
-        //            data: {}
-        //        },
-        //        files: [{
-        //            expand: true,
-        //            cwd: 'source',
-        //            src: [ '**/*.jade' ],
-        //            dest: 'build',
-        //            ext: '.html'
-        //        }]
-        //    }
-        //},
-        //
-        //watch: {
-        //    stylesheets: {
-        //        files: 'source/**/*.styl',
-        //        tasks: [ 'stylesheets' ]
-        //    },
-        //    scripts: {
-        //        files: 'source/**/*.coffee',
-        //        tasks: [ 'scripts' ]
-        //    },
-        //    jade: {
-        //        files: 'source/**/*.jade',
-        //        tasks: [ 'jade' ]
-        //    },
-        //    copy: {
-        //        files: [ 'source/**', '!source/**/*.styl', '!source/**/*.coffee', '!source/**/*.jade' ],
-        //        tasks: [ 'copy' ]
-        //    }
-        //}
-
     });
 
     // load the tasks
@@ -113,7 +78,20 @@ module.exports = function(grunt) {
             grunt: true,
             args: ['dist'],
             opts: {
-                cwd: 'bootstrap-scr'
+                cwd: 'subs/AMBootstrap'
+            }
+        }, function(error, result, code) {
+            console.log(result.stdout);
+            cb();
+        });
+    });
+    grunt.registerTask('compile-paperletter', function() {
+        var cb = this.async();
+        grunt.util.spawn({
+            grunt: true,
+            args: ['dist'],
+            opts: {
+                cwd: 'subs/PaperLetters'
             }
         }, function(error, result, code) {
             console.log(result.stdout);
@@ -135,7 +113,7 @@ module.exports = function(grunt) {
     grunt.registerTask(
         'publish',
         'publishes the site to publish directory.',
-        [ 'clean','compile-bootstrap', 'copy', 'cssmin', 'uglify' ]
+        [ 'clean','compile-bootstrap','compile-paperletter', 'copy', 'cssmin', 'uglify' ]
     );
     grunt.registerTask(
         'debug',
