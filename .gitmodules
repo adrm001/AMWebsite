@@ -1,0 +1,9 @@
+[submodule "AMBootstrap/AMBootstrap"]
+	path = AMBootstrap/AMBootstrap
+	url = ../AMBootstrap.git
+[submodule "subs/AMBootstrap"]
+	path = subs/AMBootstrap
+	url = ../AMBootstrap.git
+[submodule "subs/PaperLetters"]
+	path = subs/PaperLetters
+	url = ../PaperLetters.git
