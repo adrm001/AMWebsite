@@ -1,4 +1,4 @@
-StripFold
+AMWebsite
 =========
 
-Strip Folding test
+repository for my website
