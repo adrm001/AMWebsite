@@ -2,8 +2,33 @@
     <div class="jumbotron">
         <h1>Paper Letters</h1>
         <p>Woodworking -> Origami -> Code. Virtually create letters (and more!) that look as if they were made from a strip of paper!</p>
+        <a class="btn btn-primary" href="https://github.com/adrm001/PaperLetters">Check out the code on GitHub</a>
     </div>
     <div class="projectContent">
+        <div class="row">
+            <div class="col-sm-offset-2 col-sm-4">
+                <div class="thumbnail">
+                    <img src="assets/paperletters/logoPaper.png">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="assets/paperletters/logoMetal.png">
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="thumbnail">
+                    <svg style="width: 190px;height: 190px; overflow: visible" id="AMLogoPapperLetter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 190">
+
+                    </svg>
+                    <div class="caption">
+                        <p>Click on drawing to enable/disable animation</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <h1>Story</h1>
         <p>
             This is a project that encompasses several of my hobbies. As I started getting more into woodworking (and getting better),
             my wife suggested that I come up with a logo that I could burn into my projects, as a way of literally putting my brand on them.
@@ -45,8 +70,6 @@
         <p>
             At first, I designed the logo mostly on the computer using my intuitions about what folds look like.
             After looking at it for a while though, the angles started to bother me so I decided to make a physical prototype.
-            I then realized that in order to get the right angles on the computer it would take some maths and geometry.
-            So I naturally wrote a program that would allow me to draw any shape with strips.
         </p>
         <div class="row">
             <div class="col-xs-offset-3 col-xs-6 col-sm-offset-4 col-sm-4">
@@ -58,34 +81,165 @@
                 </div>
             </div>
         </div>
+        <p>
+            I then realized that in order to get the right angles on the computer it would take some maths and geometry.
+            So I naturally wrote a program that would allow me to draw any shape with strips. Below is an embedded live demo.
+            You can also <a target="_blank" class="btn btn-primary" href="PaperLetters/test.html">click here</a> to open in full.
+        </p>
+        <h1>Demo</h1>
         <iframe class="demoFrame" src="PaperLetters/test.html"></iframe>
-        <!--<div class="row">-->
-            <!--<div class="col-sm-offset-1 col-sm-5 col-md-offset-2 col-md-4">-->
-                <!--<div class="thumbnail">-->
-                    <!--<img src="assets/paperletters/">-->
-                    <!--<div class="caption">-->
-                        <!--<p>Normal scatter plot</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="col-sm-5 col-md-4">-->
-                <!--<div class="thumbnail">-->
-                    <!--<img src="assets/splatterplots/explanation.png">-->
-                    <!--<div class="caption">-->
-                        <!--<p>Features of a splatterplot</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
+        <h1>How does it work</h1>
+        <p>
+           The first thing I did was to come up with a list of design constraints, or "must haves":
+        </p>
+        <h4>Design constraints:</h4>
+        <ul>
+            <li>The resulting shape has to physically correct</li>
+            <li>Unfolding animations have to look plausible</li>
+            <li>It all has to be in SVG for use in a website</li>
+            <li>It has to look good, and like paper</li>
+        </ul>
+        <p>
+            Below I go into a bit more detail on how some of the math behind this works.
+        </p>
+        <h3>Lines to folds</h3>
+        <p>
+            The first thing I did was to figure out how to go from a set of connected points to folded strips.
 
-        <!--<p>-->
+        </p>
+        <div class="row">
+            <div class="col-sm-offset-1 col-sm-10">
+                <div class="thumbnail">
+                    <img src="assets/paperletters/linesToFolds1.svg">
+                    <div class="caption">
+                        <p>From to connected points to folded strip</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>
+            First, we have to figure out the angle at which the paper will fold, given location of the desired points.
+            A key observation here is that this behaves the same as a 2D reflection. Another way to look at is that the
+            fold is tangent to the folding point, and the same distance from both lines.
+        </p>
+        <div class="row">
+            <div class="col-sm-offset-1 col-sm-10">
+                <div class="thumbnail">
+                    <img src="assets/paperletters/linesToFolds2.svg">
+                    <div class="caption">
+                        <p>Sum of the interior and exterior angles is 180 degrees.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>
+            This means that the angles in yellow are the same, and when added to the blue angle the total is 180 degrees.
+            We can figure out what the blue angle is with the dot product. Now that we have the angle, we need to figure out
+            how long the segment around the fold point is. There are many ways to do this, but the way I did it involves some simple
+            triangle geometry.
+        </p>
+        <div class="row">
+            <div class="col-sm-offset-1 col-sm-10">
+                <div class="thumbnail">
+                    <img src="assets/paperletters/linesToFolds3.svg">
+                    <div class="caption">
+                        <p>Closeup around a fold point</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>
+            Since we know angle \(a\) (from the previous step), and length \(w\) (which is just half of the desired strip width),
+            we can calculate angle \(b = 180 - (90 + a)\). We can then use the definition of \(cosine = {adjacent \over hypotenuse}\).
+            Then plug in our values and solve for \(h\) and we get $$h = { w \over cos(b)}$$ The final code looks something like the following.
+            In the snippet, "this" refers to the fold point:
+        </p>
+        <pre>
+            <code class="language-javascript" prism>
 
-        <!--</p>-->
-        <!--<div class="embed-responsive embed-responsive-16by9">-->
-            <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9Uipb3MXaek" allowfullscreen></iframe>-->
-        <!--</div>-->
-        <!--<br>-->
+    calcFold: function () {
+        if (!this.prev && !this.next) {
+            return;
+        }
+        var angle;
+        var dir;
+        if (this.prev) {
+            dir = this.prev.point.subtract(this.point).norm();
+        } else {
+            dir = this.point.subtract(this.next.point).norm().scale(-1);
+        }
+        var cross;
+        if (this.next && this.prev) {
+            var otherDir = this.next.point.subtract(this.point).norm();
+            angle = (Math.PI - dir.angle(otherDir)) / 2;
+            cross = dir.cross(otherDir);
+            if (cross > 0) {
+                angle = -angle;
+            }
+        } else {
+            angle = AM.Math.ToRad(90);
+        }
+        var size = $width / (Math.cos(AM.Math.ToRad(90) - angle));
+        var foldA = dir.rotate(angle).scale(size);
+        var foldB = dir.rotate(angle).scale(-size);
+        this.fPointA = this.point.add(foldA);
+        this.fPointB = this.point.add(foldB);
+    }
+            </code>
+        </pre>
+        <p>
+            Now we have all the required points and can draw a series of overlapping trapezoids to come up with the folded strip.
+        </p>
+        <div class="row">
+            <div class="col-sm-offset-1 col-sm-10">
+                <div class="thumbnail">
+                    <img src="assets/paperletters/linesToFolds4.svg">
+                    <div class="caption">
+                        <p>Final folded shape</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <h3>Unfolding</h3>
+        <div class="row">
+            <div class="col-sm-offset-1 col-sm-10">
+                <div class="thumbnail">
+                    <img src="assets/paperletters/unfolding.svg">
+                    <div class="caption">
+                        <p>Corresponding unfolded points are reflections along the folding line</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>
+            As illustrated above, the corresponding unfolded points can be found by reflecting the folded endpoints
+            about the folding line. Vector projection can be found with the dot product, \(\vec{a}_{||b}=\vec{a} \cdot \hat{b}\).
+            If we have a vector to point  \(\vec{p}\) and a line \(\vec{a} +t\hat{n}\), then the projected portion that we want is
+            \(((\vec{a}-\vec{p}) \cdot \hat{n})\hat{n}\) and the vector from \(\vec{p}\) to the line is then
+            \((\vec{a}-\vec{p})-((\vec{a}-\vec{p}) \cdot \hat{n})\hat{n}\)
+        </p>
+        <div class="row">
+            <div class="col-sm-offset-1 col-sm-10">
+                <div class="thumbnail">
+                    <img src="assets/paperletters/unfolding2.svg">
+                    <div class="caption">
+                        <p>Vector from point \(p\) to line</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <pre>
+            <code class="language-javascript" prism>
 
+    //'this' refers to line = A + tN
+    vector2LineFromPoint: function (p) {
+        var p2A = this.A.subtract(p);
+        var compA = p2A.dot(this.N);
+        var proj = this.N.scale(compA);
+        return p2A.subtract(proj);
+    }
+            </code>
+         </pre>
     </div>
 </div>

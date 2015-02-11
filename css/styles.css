@@ -65,7 +65,8 @@
 .demoFrame
 {
     width: 600px;
-    height: 600px;
+    height: 750px;
     overflow: hidden;
-    margin: auto;
+    margin: 0 auto;
+    display: block;
 }

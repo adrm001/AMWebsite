@@ -56,6 +56,9 @@ var app = (function () {
                 if($navTab === 'resume') {
                     app.addLogo('AMLogoResume');
                 }
+                if($navTab === 'projects' && $('#AMLogoPapperLetter')) {
+                    app.addLogo('AMLogoPapperLetter',1,2500);
+                }
             })
         }
     ]);
@@ -81,11 +84,22 @@ var app = (function () {
         }
     ]);
 
-    app.addLogo = function (divID,scale) {
+    app.directive('prism', [function() {
+        return {
+            restrict: 'A',
+            link: function ($scope, element, attrs) {
+                element.ready(function () {
+                    Prism.highlightElement(element[0]);
+                });
+            }
+        }
+    }]);
+
+    app.addLogo = function (divID,scale,autoUnfoldDelay) {
         var svgDiv = SVG(divID);
         var points = AM.Math.Vec2d.Array2DToVec($AM);
         var orig = new AM.Math.Vec2d(20, 180);
-        return new AM.PaperLetter(svgDiv, points, orig, 15, $primaryLight, $primaryDark, scale);
+        return new AM.PaperLetter(svgDiv, points, orig, 15, $primaryLight, $primaryDark, scale,autoUnfoldDelay);
     };
 
     return app;

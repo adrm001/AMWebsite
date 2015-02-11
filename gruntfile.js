@@ -10,6 +10,18 @@ module.exports = function(grunt) {
                 dest: 'publish/PaperLetters/',
                 expand: true
             },
+            paperletters: {
+                cwd:'subs/PaperLetters/dist',
+                src: '**',
+                dest: 'publish/PaperLetters/',
+                expand: true
+            },
+            subs: {
+                cwd:'subs/',
+                src: ['js/**','css/**'],
+                dest: 'publish/',
+                expand: true
+            },
             js: {
                 src: 'js/*',
                 dest: 'publish/',
@@ -27,7 +39,7 @@ module.exports = function(grunt) {
                 expand:true
             },
             html:{
-                src: ['index.html','partials/**'],
+                src: ['index.html','partials/**','web.config'],
                 dest: 'publish/',
                 expand: true
             }
