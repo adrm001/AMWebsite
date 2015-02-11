@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="SvgjsSvg1000"
+   version="1.1"
+   width="310.83911"
+   height="175.11334"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="linesToFolds2.svg">
+  <metadata
+     id="metadata3461">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="987"
+     id="namedview3459"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     inkscape:zoom="0.92187502"
+     inkscape:cx="238.51786"
+     inkscape:cy="136.27138"
+     inkscape:window-x="1592"
+     inkscape:window-y="270"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="SvgjsSvg1000"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true" />
+  <defs
+     id="SvgjsDefs1001">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4812"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4814"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4401"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <filter
+       id="SvgjsFilter1057">
+      <feOffset
+         id="SvgjsFeOffset1058"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1058Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1059"
+         in="SvgjsFeOffset1058Out"
+         result="SvgjsFeGaussianBlur1059Out"
+         stdDeviation="2" />
+    </filter>
+    <filter
+       id="SvgjsFilter1062">
+      <feOffset
+         id="SvgjsFeOffset1063"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1063Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1064"
+         in="SvgjsFeOffset1063Out"
+         result="SvgjsFeGaussianBlur1064Out"
+         stdDeviation="2" />
+    </filter>
+    <filter
+       id="SvgjsFilter1067">
+      <feOffset
+         id="SvgjsFeOffset1068"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1068Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1069"
+         in="SvgjsFeOffset1068Out"
+         result="SvgjsFeGaussianBlur1069Out"
+         stdDeviation="2" />
+    </filter>
+    <filter
+       id="SvgjsFilter1072">
+      <feOffset
+         id="SvgjsFeOffset1073"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1073Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1074"
+         in="SvgjsFeOffset1073Out"
+         result="SvgjsFeGaussianBlur1074Out"
+         stdDeviation="2" />
+    </filter>
+    <filter
+       id="SvgjsFilter1077">
+      <feOffset
+         id="SvgjsFeOffset1078"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1078Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1079"
+         in="SvgjsFeOffset1078Out"
+         result="SvgjsFeGaussianBlur1079Out"
+         stdDeviation="2" />
+    </filter>
+    <filter
+       id="SvgjsFilter1082">
+      <feOffset
+         id="SvgjsFeOffset1083"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1083Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1084"
+         in="SvgjsFeOffset1083Out"
+         result="SvgjsFeGaussianBlur1084Out"
+         stdDeviation="2" />
+    </filter>
+    <filter
+       id="SvgjsFilter1087">
+      <feOffset
+         id="SvgjsFeOffset1088"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1088Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1089"
+         in="SvgjsFeOffset1088Out"
+         result="SvgjsFeGaussianBlur1089Out"
+         stdDeviation="2" />
+    </filter>
+    <filter
+       id="SvgjsFilter1134">
+      <feOffset
+         id="SvgjsFeOffset1135"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1135Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1136"
+         in="SvgjsFeOffset1135Out"
+         result="SvgjsFeGaussianBlur1136Out"
+         stdDeviation="2" />
+    </filter>
+    <filter
+       id="SvgjsFilter1139">
+      <feOffset
+         id="SvgjsFeOffset1140"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1140Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1141"
+         in="SvgjsFeOffset1140Out"
+         result="SvgjsFeGaussianBlur1141Out"
+         stdDeviation="2" />
+    </filter>
+    <filter
+       id="SvgjsFilter1144">
+      <feOffset
+         id="SvgjsFeOffset1145"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1145Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1146"
+         in="SvgjsFeOffset1145Out"
+         result="SvgjsFeGaussianBlur1146Out"
+         stdDeviation="2" />
+    </filter>
+    <filter
+       id="SvgjsFilter1149">
+      <feOffset
+         id="SvgjsFeOffset1150"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1150Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1151"
+         in="SvgjsFeOffset1150Out"
+         result="SvgjsFeGaussianBlur1151Out"
+         stdDeviation="2" />
+    </filter>
+    <filter
+       id="SvgjsFilter1154">
+      <feOffset
+         id="SvgjsFeOffset1155"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1155Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1156"
+         in="SvgjsFeOffset1155Out"
+         result="SvgjsFeGaussianBlur1156Out"
+         stdDeviation="2" />
+    </filter>
+    <filter
+       id="SvgjsFilter1159">
+      <feOffset
+         id="SvgjsFeOffset1160"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1160Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1161"
+         in="SvgjsFeOffset1160Out"
+         result="SvgjsFeGaussianBlur1161Out"
+         stdDeviation="2" />
+    </filter>
+    <filter
+       id="SvgjsFilter1164">
+      <feOffset
+         id="SvgjsFeOffset1165"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1165Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1166"
+         in="SvgjsFeOffset1165Out"
+         result="SvgjsFeGaussianBlur1166Out"
+         stdDeviation="2" />
+    </filter>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4812-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4814-5"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4812-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4814-1"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <line
+     id="SvgjsLine1177-1-2"
+     x1="187.71321"
+     y1="96.667343"
+     x2="115.28682"
+     y2="126.66734"
+     style="stroke:#000000;stroke-width:3" />
+  <line
+     id="SvgjsLine1178-8-0"
+     x1="151.50002"
+     y1="111.66734"
+     x2="251.49998"
+     y2="11.667344"
+     style="stroke:#000000;stroke-width:3" />
+  <line
+     id="SvgjsLine1182-1-4"
+     x1="240.89339"
+     y1="1.0606549"
+     x2="262.10657"
+     y2="22.274035"
+     style="stroke:#000000;stroke-width:3" />
+  <line
+     id="SvgjsLine1183-3-4"
+     x1="1.5"
+     y1="126.66734"
+     x2="1.5"
+     y2="96.667343"
+     style="stroke:#000000;stroke-width:3" />
+  <path
+     style="fill:none;stroke:#0000ff;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path6402-2"
+     sodipodi:type="arc"
+     sodipodi:cx="151.4892"
+     sodipodi:cy="111.68233"
+     sodipodi:rx="59.013283"
+     sodipodi:ry="59.013283"
+     sodipodi:start="3.1484142"
+     sodipodi:end="5.4770214"
+     d="M 92.477287,111.27977 A 59.013283,59.013283 0 0 1 128.52622,57.319941 59.013283,59.013283 0 0 1 192.34243,69.096166"
+     transform="matrix(1,-9.8721868e-5,9.8721868e-5,1,0,0)"
+     sodipodi:open="true" />
+  <path
+     style="fill:none;stroke:#ffff00;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path6402"
+     sodipodi:type="arc"
+     sodipodi:cx="151.50002"
+     sodipodi:cy="111.66734"
+     sodipodi:rx="59.013283"
+     sodipodi:ry="59.013283"
+     sodipodi:start="2.7409452"
+     sodipodi:end="3.1366533"
+     d="m 97.160073,134.68339 a 59.013283,59.013283 0 0 1 -4.672621,-22.72456 l 59.012568,-0.29149 z" />
+  <path
+     style="fill:none;stroke:#ffff00;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path6402-8"
+     sodipodi:type="arc"
+     sodipodi:cx="-99.114006"
+     sodipodi:cy="-160.18555"
+     sodipodi:rx="59.013283"
+     sodipodi:ry="59.013283"
+     sodipodi:start="2.7409452"
+     sodipodi:end="3.1366533"
+     d="m -153.45395,-137.1695 a 59.013283,59.013283 0 0 1 -4.67262,-22.72456 l 59.012564,-0.29149 z"
+     transform="matrix(-0.92813696,0.37223887,-0.37223887,-0.92813696,0,0)" />
+  <line
+     style="stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:6, 3;stroke-dashoffset:0"
+     y2="173.72752"
+     x2="2.2591858"
+     y1="46.147324"
+     x1="310.26508"
+     id="SvgjsLine1177-1-2-0" />
+  <line
+     id="SvgjsLine1178-7-7"
+     x1="152.45805"
+     y1="111.21864"
+     x2="252.45799"
+     y2="11.218644"
+     style="stroke:#000000;stroke-width:3" />
+  <line
+     id="SvgjsLine1173-7-1"
+     x1="1.5"
+     y1="111.66734"
+     x2="151.50002"
+     y2="111.66734"
+     style="stroke:#000000;stroke-width:3" />
+</svg>

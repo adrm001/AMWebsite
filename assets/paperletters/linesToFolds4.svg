@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="SvgjsSvg1000"
+   version="1.1"
+   width="490.29398"
+   height="128.31996"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="linesToFolds4.svg">
+  <metadata
+     id="metadata6721">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="950"
+     inkscape:window-height="709"
+     id="namedview6719"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     inkscape:zoom="1.2929132"
+     inkscape:cx="165.8329"
+     inkscape:cy="86.749674"
+     inkscape:window-x="2118"
+     inkscape:window-y="368"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="SvgjsSvg1000" />
+  <circle
+     id="SvgjsEllipse1006"
+     cx="-189.98323"
+     cy="274.38217"
+     style="display:none"
+     r="10" />
+  <line
+     id="SvgjsLine1007"
+     x1="-189.98323"
+     y1="274.38217"
+     x2="-39.983231"
+     y2="274.38217"
+     style="display:none;stroke:#000000;stroke-width:3" />
+  <line
+     id="SvgjsLine1008"
+     x1="-189.98323"
+     y1="259.38217"
+     x2="-3.7700195"
+     y2="259.38217"
+     style="display:none;stroke:#ff0000;stroke-width:3" />
+  <line
+     id="SvgjsLine1009"
+     x1="-189.98323"
+     y1="289.38217"
+     x2="-76.196442"
+     y2="289.38217"
+     style="display:none;stroke:#000000;stroke-width:3" />
+  <circle
+     id="SvgjsEllipse1010"
+     cx="-39.983231"
+     cy="274.38217"
+     style="display:none"
+     r="10" />
+  <line
+     id="SvgjsLine1011"
+     x1="-3.7700195"
+     y1="259.38217"
+     x2="-76.196442"
+     y2="289.38217"
+     style="display:none;stroke:#000000;stroke-width:3" />
+  <line
+     id="SvgjsLine1012"
+     x1="-39.983231"
+     y1="274.38217"
+     x2="60.016754"
+     y2="174.38217"
+     style="display:none;stroke:#000000;stroke-width:3" />
+  <line
+     id="SvgjsLine1013"
+     x1="-76.196442"
+     y1="289.38217"
+     x2="49.410156"
+     y2="163.7756"
+     style="display:none;stroke:#ff0000;stroke-width:3" />
+  <line
+     id="SvgjsLine1014"
+     x1="-3.7700195"
+     y1="259.38217"
+     x2="70.623352"
+     y2="184.98874"
+     style="display:none;stroke:#000000;stroke-width:3" />
+  <circle
+     id="SvgjsEllipse1015"
+     cx="60.016754"
+     cy="174.38217"
+     style="display:none"
+     r="10" />
+  <line
+     id="SvgjsLine1016"
+     x1="49.410156"
+     y1="163.7756"
+     x2="70.623352"
+     y2="184.98874"
+     style="display:none;stroke:#000000;stroke-width:3" />
+  <line
+     id="SvgjsLine1017"
+     x1="-189.98323"
+     y1="289.38217"
+     x2="-189.98323"
+     y2="259.38217"
+     style="display:none;stroke:#000000;stroke-width:3" />
+  <defs
+     id="SvgjsDefs1001">
+    <filter
+       id="SvgjsFilter1020">
+      <feOffset
+         id="SvgjsFeOffset1021"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1021Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1022"
+         in="SvgjsFeOffset1021Out"
+         result="SvgjsFeGaussianBlur1022Out"
+         stdDeviation="2" />
+    </filter>
+    <filter
+       id="SvgjsFilter1025">
+      <feOffset
+         id="SvgjsFeOffset1026"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1026Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1027"
+         in="SvgjsFeOffset1026Out"
+         result="SvgjsFeGaussianBlur1027Out"
+         stdDeviation="2" />
+    </filter>
+    <filter
+       id="SvgjsFilter1025-5">
+      <feOffset
+         id="SvgjsFeOffset1026-5"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1026Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1027-4"
+         in="SvgjsFeOffset1026Out"
+         result="SvgjsFeGaussianBlur1027Out"
+         stdDeviation="2" />
+    </filter>
+    <filter
+       id="SvgjsFilter1020-8">
+      <feOffset
+         id="SvgjsFeOffset1021-8"
+         in="SourceAlpha"
+         result="SvgjsFeOffset1021Out"
+         dx="0"
+         dy="0" />
+      <feGaussianBlur
+         id="SvgjsFeGaussianBlur1022-9"
+         in="SvgjsFeOffset1021Out"
+         result="SvgjsFeGaussianBlur1022Out"
+         stdDeviation="2" />
+    </filter>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4812-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4814-5"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4812"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4814"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <polygon
+     id="SvgjsPolygon1019-8"
+     points="236.2132,135 163.7868,165 50,165 50,135 "
+     style="fill:#26697f;stroke:#26697f"
+     transform="translate(178.98027,-38.686291)" />
+  <polygon
+     id="SvgjsPolygon1024-0"
+     points="289.3934,39.393398 310.6066,60.606602 236.2132,135 163.7868,165 "
+     style="fill:#0099cc;stroke:#0099cc"
+     transform="translate(178.98027,-38.686291)" />
+  <line
+     id="SvgjsLine1173-7-7"
+     x1="1.5"
+     y1="111.81996"
+     x2="151.5"
+     y2="111.81996"
+     style="stroke:#000000;stroke-width:3" />
+  <line
+     id="SvgjsLine1174-6-9"
+     x1="1.5"
+     y1="96.819962"
+     x2="187.7132"
+     y2="96.819962"
+     style="stroke:#ff0000;stroke-width:3" />
+  <line
+     id="SvgjsLine1175-0-0"
+     x1="1.5"
+     y1="126.81996"
+     x2="115.2868"
+     y2="126.81996"
+     style="stroke:#000000;stroke-width:3" />
+  <line
+     id="SvgjsLine1177-1-8"
+     x1="187.7132"
+     y1="96.819962"
+     x2="115.2868"
+     y2="126.81996"
+     style="stroke:#000000;stroke-width:3" />
+  <line
+     id="SvgjsLine1178-8-7"
+     x1="151.5"
+     y1="111.81996"
+     x2="251.5"
+     y2="11.819961"
+     style="stroke:#000000;stroke-width:3" />
+  <line
+     id="SvgjsLine1179-3-7"
+     x1="115.2868"
+     y1="126.81996"
+     x2="240.89337"
+     y2="1.2132709"
+     style="stroke:#ff0000;stroke-width:3" />
+  <line
+     id="SvgjsLine1180-7-9"
+     x1="187.7132"
+     y1="96.819962"
+     x2="262.10657"
+     y2="22.426649"
+     style="stroke:#000000;stroke-width:3" />
+  <line
+     id="SvgjsLine1182-1-7"
+     x1="240.89337"
+     y1="1.2132709"
+     x2="262.10657"
+     y2="22.426649"
+     style="stroke:#000000;stroke-width:3" />
+  <line
+     id="SvgjsLine1183-3-9"
+     x1="1.5"
+     y1="126.81996"
+     x2="1.5"
+     y2="96.819962"
+     style="stroke:#000000;stroke-width:3" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.29999995;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4812-3)"
+     d="m 245.01968,56.606487 116.58872,0"
+     id="path3574-5"
+     inkscape:connector-curvature="0" />
+</svg>
