@@ -1,27 +1,20 @@
-#drawing{
-  width:  500px;
-  height: 500px;
-  border: 2px solid green;
-  position:relative;
-}
-#drawing svg{
-  position:absolute;
-  top:0px;
-  left:0px;
-  overflow: visible;
-}
-#AMLogoDiv
+#homeContainer
 {
-  margin: auto;
-  margin-top: 15px;
-  height: 190px;
-  width: 190px;
-  overflow: visible;
+    margin: 15px;
+    font-size: x-large;
 }
 .am_svgContainer, .am_svgContainerMini
 {
   position: relative;
   overflow: visible;
+}
+.am_svgContainer
+{
+    margin: auto;
+    margin-top: 15px;
+    height: 190px;
+    width: 190px;
+    overflow: visible;
 }
 .am_svgContainerMini
 {

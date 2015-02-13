@@ -48,6 +48,7 @@ var app = (function () {
     app.controller('ViewCtl',['$scope',
         function($scope){
             $scope.$on('$viewContentLoaded',function(){
+                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
                 if($navTab === 'home') {
                     $AMLogo = app.addLogo('AMLogo');
                     $('#AMLogo').on('click', $AMLogo.FoldUnfold.bind($AMLogo));
@@ -56,7 +57,7 @@ var app = (function () {
                 if($navTab === 'resume') {
                     app.addLogo('AMLogoResume');
                 }
-                if($navTab === 'projects' && $('#AMLogoPapperLetter')) {
+                if($navTab === 'projects' && $('#AMLogoPapperLetter').length > 0) {
                     app.addLogo('AMLogoPapperLetter',1,2500);
                 }
             })
