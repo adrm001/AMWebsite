@@ -63,3 +63,38 @@
     margin: 0 auto;
     display: block;
 }
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+}
+.github{
+    background-image: url("../assets/GitHub-Mark/PNG/GitHub-Mark-32px.png");
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+.linkedin
+{
+    background-image: url("../assets/LinkedIn [in]/Screen/2-Color/In-2C-34px-R.png");
+    width: 43px;
+    height: 34px;
+    display: inline-block;
+}
+.email
+{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    font-size: 32px;
+}
