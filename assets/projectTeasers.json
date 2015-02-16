@@ -13,34 +13,28 @@
       "link":"#/projects/paperletters"
     },
     {
-      "image":"assets/splatterplots/teaser.png",
-      "description":"A technique for muticlass scatter plots with millions of points.",
-      "title": "Splatterplots",
-      "link":"https://graphics.cs.wisc.edu/Papers/2013/MG13/"
+      "image":"assets/subsurface/final.png",
+      "description":"A technique for rendering translucent materials.",
+      "title": "Subsurface scattering",
+      "link":"#/projects/subsurface"
     },
     {
-      "image":"assets/splatterplots/teaser.png",
-      "description":"A technique for muticlass scatter plots with millions of points.",
-      "title": "Splatterplots",
-      "link":"https://graphics.cs.wisc.edu/Papers/2013/MG13/"
+      "image":"GaeaGun/files/5.jpg",
+      "description":"A 3D artillery game with terra-forming!",
+      "title": "GaeaGun",
+      "link":"#/projects/gaeagun"
     },
     {
-      "image":"assets/splatterplots/teaser.png",
-      "description":"A technique for muticlass scatter plots with millions of points.",
-      "title": "Splatterplots",
-      "link":"https://graphics.cs.wisc.edu/Papers/2013/MG13/"
+      "image":"assets/origami/chocobo.jpg",
+      "description":"A collection of some of the things I've folded.",
+      "title": "Origami",
+      "link":"#/projects/origami"
     },
     {
-      "image":"assets/splatterplots/teaser.png",
-      "description":"A technique for muticlass scatter plots with millions of points.",
-      "title": "Splatterplots",
-      "link":"https://graphics.cs.wisc.edu/Papers/2013/MG13/"
-    },
-    {
-      "image":"assets/splatterplots/teaser.png",
-      "description":"A technique for muticlass scatter plots with millions of points.",
-      "title": "Splatterplots",
-      "link":"https://graphics.cs.wisc.edu/Papers/2013/MG13/"
+      "image":"assets/woodworking/box/25.jpg",
+      "description":"A collection of some of the things I've built with wood.",
+      "title": "Woodworking",
+      "link":"#/projects/woodworking"
     }
   ]
 }

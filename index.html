@@ -48,7 +48,6 @@
                 <li ng-class="{active: tabIs('home')}"><a ng-click="select('home')" href="#/home">Home</a></li>
                 <li ng-class="{active: tabIs('projects')}"><a ng-click="select('projects')" href="#/projects">Projects and Research</a></li>
                 <li ng-class="{active: tabIs('resume')}"><a ng-click="select('resume')" href="#/resume">Resume</a></li>
-                <li ng-class="{active: tabIs('contact')}"><a ng-click="select('contact')" href="#/contact">Contact</a></li>
             </ul>
         </div>
         <!--/.nav-collapse -->
@@ -66,14 +65,15 @@
 <div id="brand-dark7" class="hide brand-dark7"></div>
 <div id="brand-light1" class="hide brand-light1"></div>
 
-<footer class="footer">
+<footer class="footer" ng-controller="FooterCtl">
     <div class="container">
         Get in  touch:
-        <div class="github"></div>
-        <div class="linkedin"></div>
         <div class="email" >
-            <span class="glyphicon glyphicon-envelope"></span>
+            <a target="_blank" href="" ng-click="mailTo()" title="email me" ><span class="glyphicon glyphicon-envelope"></span></a>
         </div>
+        <a target="_blank" title="View my GitHub profile" href="https://github.com/adrm001"><div class="github"></div></a>
+        <a target="_blank" title="View my LinkedIn profile" href="https://www.linkedin.com/in/adrmayorga"><div class="linkedin"></div></a>
+
     </div>
 </footer>
 <!--Placing js at end of page to increase loading speed-->

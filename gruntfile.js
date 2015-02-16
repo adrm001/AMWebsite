@@ -16,6 +16,12 @@ module.exports = function(grunt) {
                 dest: 'publish/PaperLetters/',
                 expand: true
             },
+            gaeagun: {
+                cwd:'subs/GaeaGun',
+                src: '**',
+                dest: 'publish/GaeaGun/',
+                expand: true
+            },
             subs: {
                 cwd:'subs/',
                 src: ['js/**','css/**'],

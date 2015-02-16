@@ -22,9 +22,6 @@ var app = (function () {
                     templateUrl: function(){$navTab = 'resume'; return 'partials/resume.html';},
                     controller: 'ResumeCtl'
                 }).
-                when('/contact', {
-                    templateUrl: function(){$navTab = 'contact'; return 'partials/contact.html';}
-                }).
                 when('/projects/:projectId',{
                     templateUrl:function($params){$navTab = 'projects'; return 'partials/projects/' + $params.projectId + '.html';}
                 }).
@@ -48,6 +45,7 @@ var app = (function () {
     app.controller('ViewCtl',['$scope',
         function($scope){
             $scope.$on('$viewContentLoaded',function(){
+                window.scrollTo(0,0);
                 MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
                 if($navTab === 'home') {
                     $AMLogo = app.addLogo('AMLogo');
@@ -82,6 +80,20 @@ var app = (function () {
             $http.get('assets/projectTeasers.json').success(function(data){
                 $scope.teasers = data.teasers;
             });
+        }
+    ]);
+
+    app.controller('BoxCtl',['$scope',
+        function ($scope) {
+            $scope.images = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28];
+        }
+    ]);
+
+    app.controller('FooterCtl',['$scope',
+        function($scope){
+            $scope.mailTo = function() {
+                window.open("mailto:" + "adr.mayorga" + "@" + "gmail.com", "_blank");
+            }
         }
     ]);
 

@@ -1,0 +1,58 @@
+<div class="container">
+    <div class="jumbotron">
+        <h1>Woodworking</h1>
+        <p>A collection of some of the things I've built with wood.</p>
+    </div>
+    <div class="projectContent">
+        <p>
+            In the last few years I've started to get into woodworking, and found that I really like it.
+            I've learn most of what I know from personal experience and the internet. Luckily, there's a great wealth
+            of online woodworking content makers, and a great community around them. I've watched videos by a great many people,
+            but of special mention are Norm Abram of The New Yankee Workshop, The Wood Whisperer Marc Spagnuolo, and Steve Ramsey
+            from Woodworking for Mere Mortals.
+        </p>
+        <p>
+            Since I've only recently started woodworking, most of my projects are utilitarian in nature, and don't tend to be
+            very attractive. Below are a few exceptions.
+        </p>
+        <div class="row">
+            <a target="_blank" href="assets/woodworking/cuttingboard.jpg" class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="assets/woodworking/cuttingboard.jpg">
+                    <div class="caption">
+                        <p>End grain cutting board</p>
+                    </div>
+                </div>
+            </a>
+            <a target="_blank" href="assets/woodworking/pantry.jpg" class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="assets/woodworking/pantry.jpg">
+                    <div class="caption">
+                        <p>Large pantry with customizable drawer heights</p>
+                    </div>
+                </div>
+            </a>
+            <a target="_blank" href="assets/woodworking/pantry2.jpg" class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="assets/woodworking/pantry2.jpg">
+                    <div class="caption">
+                        <p>Shot of the floating drawers</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <p>
+            This past christmas (2014) I made a jewelery box for my mom, and actually documented the process.
+            This is probably my finest woodworking project to date. The box is made from walnut, with a lacquer finish.
+        </p>
+        <div class="row" ng-controller="BoxCtl">
+            <div ng-repeat="image in images">
+                <a target="_blank" ng-href="assets/woodworking/box/{{image}}.jpg" class="col-sm-4">
+                    <div class="thumbnail">
+                        <img ng-src="assets/woodworking/boxSmall/{{image}}.jpg">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

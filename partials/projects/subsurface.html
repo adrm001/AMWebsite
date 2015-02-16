@@ -1,0 +1,92 @@
+<div class="container">
+    <div class="jumbotron">
+        <h1>Subsurface scattering</h1>
+        <p>A technique for rendering translucent materials.</p>
+        <a target="_blank" class="btn btn-primary" href="ftp://ftp.cs.utexas.edu/pub/techreports/honor_theses/cs-08-03-mayorga.pdf"> Click here to download the paper</a>
+    </div>
+    <div class="projectContent">
+        <p>
+            For my undergrad thesis project I investigated techniques used for rendering translucent materials.
+            For typical opaque materials, the rendering problem can be localized. This means that most of the effects that
+            contribute to the materials final reflected color can be computed by sampling the direction and amount of light at a
+            particular point. This information is usually represented by a bidirectional reflectance distribution function, or
+            <a target="_blank" href="http://en.wikipedia.org/wiki/Bidirectional_reflectance_distribution_function">BRDF</a>.
+        </p>
+        <p>
+            However, translucent materials cannot be modeled like this. This is because in translucent materials, light does
+            not simply bounce off the surface. Instead, the light actually penetrates the material, bounces around a few times
+            and comes out at a different spot. This makes the resulting reflected color at a particular point a function of the incoming light
+            in an area around that point. This can be modeled with a bidirectional surface scattering reflectance distribution function, or
+            <a target="_blank" href="http://en.wikipedia.org/wiki/Bidirectional_scattering_distribution_function">BSSRDF</a>.
+        </p>
+
+        <div class="row">
+            <div class="col-sm-offset-1 col-sm-5 col-md-offset-2 col-md-4">
+                <div class="thumbnail">
+                    <img src="assets/subsurface/local.png">
+                    <div class="caption">
+                        <p>Local scattering can be modeled with a BRDF</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 col-md-4">
+                <div class="thumbnail">
+                    <img src="assets/subsurface/scattering.png">
+                    <div class="caption">
+                        <p>Subsurface scattering needs a BSSRDF</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p>
+            In the picture above, we can see how light might scattering in a homogeneous material. Many real world materials
+            are actually a composition of several layers, which vary in hwo they scatter light. This property is found in skin
+            and marble, for example. My undergraduate thesis work combines two techniques in order to speed up computing the interaction between
+            different layers of the material. This allowed me to render materials that potentially had different scattering
+            properties at each pixel. Below is one example.
+        </p>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="assets/subsurface/bottom.png">
+                    <div class="caption">
+                        <p>Bottom layer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="assets/subsurface/top.png">
+                    <div class="caption">
+                        <p>Top layer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="assets/subsurface/top-depth.png">
+                    <div class="caption">
+                        <p>Top layer with varying thickness</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <div class="thumbnail">
+                    <img src="assets/subsurface/specular.png">
+                    <div class="caption">
+                        <p>Glossy reflectance</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-6">
+                <div class="thumbnail">
+                    <img src="assets/subsurface/final.png">
+                    <div class="caption">
+                        <p>Combined result</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
